@@ -128,3 +128,15 @@ for(let i=0;i<playList.childElementCount;i++){
 
 // console.log(result)
 
+
+let audioElement=new Audio('2.mp3')
+
+
+let masterPlay=document.querySelector('#masterPlay')
+
+masterPlay.addEventListener('click',()=>{
+    if(audioElement.paused || audioElement.currentTime<=0){
+        audioElement.play();
+    }
+})
+// audioElement.play();
