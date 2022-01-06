@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+
+}
+
+body{
+    background-color: black;
+    font-family:Verdana,'Segoe UI', Tahoma, Geneva,  sans-serif ;
+    /* width: 100%;
+    height: 100%; */
+}
+.upper{
+    width: 100%;
+    background-color: black;
+    color: white ;
+    /* border-radius: 10px; */
+    /* i am going to change the */
+    /* margin: 5px; */
+}
+
+.nav{
+    
+    display: flex;
+    height: 5em;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    /* border-radius: 10px; */
+}
+
+li.navli{
+    list-style-type: none;
+    /* margin: 12px; */
+}
+
+
+#spot{
+    width: 2.3em;
+    height: auto;
+}
+
+div.content{
+    height: 150vh;
+    /* border-radius: 10px; */
+    width: auto;
+    background-color: black;
+    /* margin: 10px; */
+    /* margin-top: 10px; */
+    /* background-image: url("/music.jpg"); */
+}
+
+.music img{
+    height: 150vh;
+    width: 50vh;
+}
+
+/* .music{
+
+    order: 2;
+} */
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-image: url('music1.jpg'); */
+
+}
+
+.playing img{
+    width: 3.5em;
+    height: auto;
+    cursor: pointer;
+    /* cursor: pointer; what i learned from harry's project*/
+}
+
+
+.insideSongElement img{
+    width: 2px;
+    height: auto;
+}
+
+.insideSongElement{
+    /* width: ; */
+    margin-left: 1em;
+}
+
+.eachSong{
+    background-color: white;
+    border-radius: 32px;
+    width: 45vh;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.eachSong img{
+    width: 2.4vw;
+    height: auto;
+    margin-right: 12px;
+    margin-left: 10px;
+}
+
+.playlist{
+    /* margin: 20px; */
+    align-self: center;
+}
+
+
+.insideSong{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.insideSong audio{
+    height: 10px;
+    background-color: white;
+    margin-left: 16px;
+
+    /* display: flex; */
+
+
+}
+
+.insideSongElement{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.insideSongElement img{
+    width: 16px;
+    cursor: pointer;
+}
+
+.songTitle{
+    align-self: center;
+    width: 12em;
+    flex-grow: 3;
+}
+
+.playing{
+    height: 80vh;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 20px 1px #fff;
+    border-radius: 12px;
+    /* justify-content: center; */
+}
+
+.imgs{
+    align-self:center ;
+    height: 30vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    /* box-shadow:  5px blue, 10px 10px red, 15px 15px green */
+}
+
+.audios{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.controlBar{
+    width: 22.5em;
+}
+
+
+.icons{
+    color: white;
+    align-self: center;
+}
+
+#next, #masterPlay, #previous{
+    cursor: pointer;
+}
+
+
+body{
+    background-color: #000000;
+}
+
+.gif{
+    align-self: center;
+}
+
+.gif img{
+    width: 10em;
+    height: 2em;
+}
+/* #img1{
+    width: 5em;
+    height: auto;
+}
+#img2,#img3{
+    width: 3em;
+    height: auto;
+} */
+
+.songName{
+    color: white;
+    align-self: center;
+}
+

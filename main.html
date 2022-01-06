@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="upper">
+        <div class="nav">
+            <li id="nav0" class ='navli'><img id='spot'src='spotify.png' alt='spotify'></li>
+            <li id="nav1" class ='navli'>Home</li>
+            <li id="nav2"class ='navli'>Top Chart</li>
+            <li id="nav3" class ='navli'>Your Playlist</li>
+            <li id="nav4" class ='navli'>Download</li>
+        </div>
+    </div>
+    <!-- <img src="music.jpg"> -->
+    <div class="content"><!--so content is the thulo container-->
+        <div class="music">
+            <img src="music.jpg">
+        </div>
+        <div class="playing">
+            <div class="imgs">
+                <div class="underImg" ><!-- style="display: none;"-->
+                    <span id='img1'><img src="pre.png"></span>
+                    <span id='img2'><img src="pause.png"></span>
+                    <span id='img3'><img src="next.png"></span>
+                </div>
+            </div>
+            <div class="gif">
+                <img src="playing.gif">
+            </div>
+            <div class='songName'>
+                <pre>        </pre>
+            </div> 
+            <div class="audios">
+                <input type="range" value="1" min="0" max="100" name="control" class="controlBar" >
+                <!-- <audio controls></audio> -->
+                <!-- <div class="controlsImages">
+                    <img src='iprevious.png'>
+                    <img src='ipause.png'>
+                    <img src='inext.png'>
+                </div> -->
+                <div class="icons">
+                    <!-- fontawesome icons -->
+                    <i class="fas fa-3x fa-step-backward" id="previous"></i>
+                    <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+                    <i class="fas fa-3x fa-step-forward" id="next"></i> 
+                </div>
+            </div>
+        </div>
+        <div class="playlist">
+            <!-- <div class="eachSong">
+                <div class="insideSong">
+                    <img src="musicIcon.png"> 
+                    Country Roads 
+                        <span>
+                            <audio controls></audio>
+                        </span>
+                </div>
+            </div>
+            <div class="eachSong">
+                <div class="insideSong">
+                    <img src="musicIcon.png"> 
+                    Bonfire Heart
+                        <span>
+                            <audio controls></audio>
+                        </span>
+                </div>
+            </div>
+// harek choti naya song halda yahi html bata edit garna parxa esari garda
+but by using js, the entire process was kinda smooth
+             -->
+            
+        </div>
+    </div>
+    <script type="text/Javascript" src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
