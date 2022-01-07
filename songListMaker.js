@@ -82,18 +82,6 @@ for(let index=0;index<songs.length;index++){
 // })
 }
 
-const imgs=document.querySelector('.imgs');
-const pausePlay=document.querySelector('.underImg');
-pausePlay.style.display='none';
-
-imgs.addEventListener('mouseover',(target)=>{
-    pausePlay.style.display='block'
-    // console.log(target)
-})
-imgs.addEventListener('mouseleave',(target)=>{
-    pausePlay.style.display='none'
-    // console.log(target)
-})
 
 
 
