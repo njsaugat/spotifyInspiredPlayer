@@ -101,22 +101,11 @@ imgs.addEventListener('mouseleave',(target)=>{
 // const eachSelectedSong=document.querySelector('.eachSong');
 // const songName=document.querySelector('.songName');
 
-const playList=document.querySelector('.playlist');
+
 // console.log(playList.childElementCount)
-// basically every song was supposed to have a unique id so that they can be targetted 
 
 
-for(let i=0;i<playList.childElementCount;i++){
-    let songId='#mySong'+String(i)
-    let differentSong=document.querySelector(songId)
-    differentSong.addEventListener('click',()=>{
-        // const songName=songSelected.text
-        // songName.innerText='';
-        // const songSelected=document.querySelector('.songTitle');
-        const songName=document.querySelector('.songName');
-        songName.innerText=differentSong.innerText;
-    })
-}
+
 
 
 
@@ -133,15 +122,3 @@ for(let i=0;i<playList.childElementCount;i++){
 
 
 
-let audioElement=new Audio('songs/2.mp3')// audioElement vaneko jun ma select garyo tei hunxa
-
-
-
-let masterPlay=document.querySelector('#masterPlay')
-
-masterPlay.addEventListener('click',()=>{
-    if(audioElement.paused || audioElement.currentTime<=0){
-        audioElement.play();
-    }
-})
-// audioElement.play();
