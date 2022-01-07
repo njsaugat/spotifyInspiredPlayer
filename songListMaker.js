@@ -97,12 +97,14 @@ imgs.addEventListener('mouseleave',(target)=>{
 
 
 
-const songSelected=document.querySelector('.songTitle');
-const eachSelectedSong=document.querySelector('.eachSong');
-const songName=document.querySelector('.songName');
+// const songSelected=document.querySelector('.songTitle');
+// const eachSelectedSong=document.querySelector('.eachSong');
+// const songName=document.querySelector('.songName');
 
 const playList=document.querySelector('.playlist');
 // console.log(playList.childElementCount)
+// basically every song was supposed to have a unique id so that they can be targetted 
+
 
 for(let i=0;i<playList.childElementCount;i++){
     let songId='#mySong'+String(i)
