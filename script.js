@@ -43,7 +43,7 @@ for(let index=0;index<songs.length;index++){
     insideSong.classList.add('insideSong')
     
     const img=document.createElement('img');
-    img.setAttribute('src','musicIcon.png');
+    img.setAttribute('src','images/musicIcon.png');
 
     const songTitle=document.createElement('div')
     songTitle.classList.add('songTitle')
@@ -56,7 +56,7 @@ for(let index=0;index<songs.length;index++){
     iconLength.classList.add('insideSongElement')
     
     const playIcon=document.createElement('img');
-    playIcon.src='play.svg';
+    playIcon.src='images/play.svg';
 
     const songLength=document.createTextNode('5:34')
     
@@ -129,7 +129,10 @@ for(let i=0;i<playList.childElementCount;i++){
 // console.log(result)
 
 
-let audioElement=new Audio('2.mp3')
+
+
+let audioElement=new Audio('songs/2.mp3')// audioElement vaneko jun ma select garyo tei hunxa
+
 
 
 let masterPlay=document.querySelector('#masterPlay')
