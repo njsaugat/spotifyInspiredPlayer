@@ -71,6 +71,11 @@ div.content{
 
 }
 
+.music{
+    flex-shrink: 10;
+    /* flex-grow: 3; */
+}
+
 .playing img{
     width: 3.5em;
     height: auto;
@@ -109,6 +114,7 @@ div.content{
 .playlist{
     /* margin: 20px; */
     align-self: center;
+
 }
 
 
@@ -149,8 +155,18 @@ div.content{
     flex-direction: column;
     box-shadow: 1px 1px 20px 1px #fff;
     border-radius: 12px;
+    flex-grow: 4;
+    /* flex-shrink: 5; */
     /* justify-content: center; */
 }
+
+@media (min-width: 1450px) and (max-width:1800px) {
+    .playing {
+        /* width: 2vh; */
+        flex-grow: 0;
+        /* flex-grow: 0; so this was what i was supposed to do ni agi nai */
+    }
+  }
 
 .imgs{
     align-self:center ;
@@ -170,7 +186,7 @@ div.content{
     flex-direction: column;
 
 }
-.controlBar{
+.controlBar1{
     width: 22.5em;
 }
 
@@ -180,7 +196,7 @@ div.content{
     align-self: center;
 }
 
-#next, #masterPlay, #previous{
+#next, #playButton, #previous{
     cursor: pointer;
 }
 
@@ -211,3 +227,6 @@ body{
     align-self: center;
 }
 
+#controlBar{
+    cursor: pointer;
+}

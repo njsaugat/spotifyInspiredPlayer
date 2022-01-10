@@ -1,4 +1,4 @@
-const songs=["Bonfire Heart",'Country Roads' , '500 Miles', 'September Ends', "The Scientist", "Cheap Thrills", 'Hey Jude']
+const songs=["","Bonfire Heart",'Country Roads' , '500 Miles', 'September Ends', "The Scientist", "Cheap Thrills", 'Hey Jude']
 
 /*
 <div class='playlist'>
@@ -25,7 +25,7 @@ const songs=["Bonfire Heart",'Country Roads' , '500 Miles', 'September Ends', "T
 
 // }
 // for making html as shown above:
-for(let index=0;index<songs.length;index++){
+for(let index=1;index<songs.length;index++){
 // songs.forEach((song)=>{
     // let index=0;
     const playList=document.querySelector('.playlist');
